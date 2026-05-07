@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC007 - Submit Form Format Email Salah</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>460ad356-b882-407a-be91-c96a81c9ecc8</testCaseGuid>
+</TestCaseEntity>

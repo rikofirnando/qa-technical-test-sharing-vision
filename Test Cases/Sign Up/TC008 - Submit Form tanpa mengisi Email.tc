@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC008 - Submit Form tanpa mengisi Email</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9b65eea2-8462-4686-b18b-51b23da2acd9</testCaseGuid>
+</TestCaseEntity>

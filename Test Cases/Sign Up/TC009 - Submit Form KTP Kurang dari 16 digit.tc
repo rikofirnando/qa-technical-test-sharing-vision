@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC009 - Submit Form KTP Kurang dari 16 digit</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>96fe9aa7-bd01-4381-b4f5-a39284f3559b</testCaseGuid>
+</TestCaseEntity>

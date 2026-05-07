@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC005 - Submit Form tanpa mengisi Nama Lengkap</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cf4d5f8c-640b-4a71-9ec4-1bdc837e9efd</testCaseGuid>
+</TestCaseEntity>

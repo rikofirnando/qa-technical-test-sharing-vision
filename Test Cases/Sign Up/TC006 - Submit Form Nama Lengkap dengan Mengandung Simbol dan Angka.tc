@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC006 - Submit Form Nama Lengkap dengan Mengandung Simbol dan Angka</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b5702c26-cfa0-4965-9031-a03db5184f6a</testCaseGuid>
+</TestCaseEntity>

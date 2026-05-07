@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001 - Submit Form Pengajuan Masuk Cuti Bersama</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>12aa9c7f-b036-4737-bcd9-2217e8fd0ce9</testCaseGuid>
+</TestCaseEntity>

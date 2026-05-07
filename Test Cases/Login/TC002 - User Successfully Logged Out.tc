@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002 - User Successfully Logged Out</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>69810bdf-9b4d-433a-98fd-d0e010d1a67c</testCaseGuid>
+</TestCaseEntity>

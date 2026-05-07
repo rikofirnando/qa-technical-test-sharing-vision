@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002 - Berhasil Submit Form Data Karyawan Baru 2</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fc11b6e4-e3f5-41e8-8fb4-d83451a1d35e</testCaseGuid>
+</TestCaseEntity>
