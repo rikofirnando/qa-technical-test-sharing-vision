@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC004 - User memasukan Invalid Username</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a7697fd8-94fd-4ae2-856e-90b448d71c0b</testCaseGuid>
+</TestCaseEntity>

@@ -7,14 +7,10 @@ CSWeb.navigateToUrl(GlobalVariable.base_url)
 
 CSWeb.waitForElementPresent("[class='card shadow-lg']", 5)
 
+// Global Variable
 def username = GlobalVariable.username
 def password = GlobalVariable.password
 
-// Hardcode
-// CSWeb.setText("[type='text']", "TestAccountKaryawan1")
-// CSWeb.setEncryptedText("[type='password']", "P@sswordK1")
-
-// Global Variable
 CSWeb.setText("[type='text']", username)
 CSWeb.setEncryptedText("[type='password']", password)
 
@@ -32,13 +28,29 @@ CSWeb.waitVerifyForTextPresent("Riwayat Pengajuan Cuti", 3)
 
 CSWeb.takeScreenshot()
 
-CSWeb.click("(//*[@class='c-avatar-img'])[2]")
+CSWeb.click("[class='c-header-toggler-icon']")
 
-CSWeb.click("//*[text()='Sign Out']")
+CSWeb.click("//*[text()='Cuti dan Lembur']")
 
-CSWeb.verifyTextPresent("Aplikasi HR SV Jakarta Test", false)
+CSWeb.click("//*[text()='Pengajuan Lembur']")
 
-CSWeb.verifyTextPresent("Log In", false)
+CSWeb.click("[class='c-sidebar-backdrop c-show']")
 
-CSWeb.takeScreenshot()
+CSWeb.click("//*[text()='Ajukan Lembur']")
+
+CSWeb.selectOption("[name='jenis_lembur']", "Hari Kerja")
+
+CSWeb.click("[class='react-datepicker__input-container']")
+
+CSWeb.click("//div[contains(@aria-label,'May 11th, 2026')]")
+
+CSWeb.setText("(//*[@class='form-control'])[3]", "10:00 PM")
+
+CSWeb.pressEnter()
+
+CSWeb.setText("(//*[@class='form-control'])[4]", "11:45 PM")
+
+CSWeb.pressEnter()
+
+CSWeb.selectOption("//select[@name='id_pic']", "Tris Retno Aryani")
 

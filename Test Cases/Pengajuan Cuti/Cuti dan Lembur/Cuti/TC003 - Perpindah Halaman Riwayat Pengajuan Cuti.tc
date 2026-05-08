@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003 - Perpindah Halaman Riwayat Pengajuan Cuti</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d3a475ab-e15d-41f5-b141-a67fbc892f07</testCaseGuid>
+</TestCaseEntity>

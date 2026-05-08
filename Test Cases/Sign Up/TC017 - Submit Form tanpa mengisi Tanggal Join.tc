@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC017 - Submit Form tanpa mengisi Tanggal Join</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b9e0fab8-1b2a-4afb-943b-5a07b60e9a4f</testCaseGuid>
+</TestCaseEntity>

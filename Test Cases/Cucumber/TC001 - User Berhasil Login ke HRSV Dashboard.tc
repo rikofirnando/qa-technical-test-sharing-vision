@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001 - User Berhasil Login ke HRSV Dashboard</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8f6a919c-ec60-4c0e-9fab-e2bdc997079c</testCaseGuid>
+</TestCaseEntity>

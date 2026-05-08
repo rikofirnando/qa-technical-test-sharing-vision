@@ -7,14 +7,10 @@ CSWeb.navigateToUrl(GlobalVariable.base_url)
 
 CSWeb.waitForElementPresent("[class='card shadow-lg']", 5)
 
+// Global Variable
 def username = GlobalVariable.username
 def password = GlobalVariable.password
 
-// Hardcode
-// CSWeb.setText("[type='text']", "TestAccountKaryawan1")
-// CSWeb.setEncryptedText("[type='password']", "P@sswordK1")
-
-// Global Variable
 CSWeb.setText("[type='text']", username)
 CSWeb.setEncryptedText("[type='password']", password)
 
@@ -32,13 +28,36 @@ CSWeb.waitVerifyForTextPresent("Riwayat Pengajuan Cuti", 3)
 
 CSWeb.takeScreenshot()
 
-CSWeb.click("(//*[@class='c-avatar-img'])[2]")
-
-CSWeb.click("//*[text()='Sign Out']")
-
-CSWeb.verifyTextPresent("Aplikasi HR SV Jakarta Test", false)
-
-CSWeb.verifyTextPresent("Log In", false)
+CSWeb.click("//a[contains(@aria-label,'page 1')]")
 
 CSWeb.takeScreenshot()
 
+CSWeb.click("//a[contains(@aria-label,'page 2')]")
+
+CSWeb.takeScreenshot()
+
+CSWeb.click("//a[contains(@aria-label,'page 3')]")
+
+CSWeb.takeScreenshot()
+
+CSWeb.click("//a[contains(@aria-label,'page 4')]")
+
+CSWeb.takeScreenshot()
+
+CSWeb.click("//a[contains(@aria-label,'page 5')]")
+
+CSWeb.takeScreenshot()
+
+CSWeb.click("//a[contains(@aria-label,'Go to previous page')]")
+
+CSWeb.click("//a[contains(@aria-label,'Go to next page')]")
+
+CSWeb.click("//a[contains(@aria-label,'Go to first page')]")
+
+CSWeb.takeScreenshot()
+
+CSWeb.click("//a[contains(@aria-label,'Go to last page')]")
+
+CSWeb.takeScreenshot()
+
+//CSWeb.closeBrowser()

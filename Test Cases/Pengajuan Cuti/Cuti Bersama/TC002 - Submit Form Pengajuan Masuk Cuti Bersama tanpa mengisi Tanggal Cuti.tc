@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002 - Submit Form Pengajuan Masuk Cuti Bersama tanpa mengisi Tanggal Cuti</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e403bc0a-0b8c-4d11-a3bb-5a36241c04ed</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003 - Submit Form Pengajuan Masuk Cuti Bersama tanpa memilih Nama PIC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>56edaa53-72f6-4945-9257-104d22635e87</testCaseGuid>
+</TestCaseEntity>

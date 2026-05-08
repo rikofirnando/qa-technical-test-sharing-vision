@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Versi script ini dapat menjalankan satu Test Case maupun seluruh script Cucumber. Namun, meskipun menjalankan banyak skenario Cucumber, sistem tetap menganggapnya sebagai satu Test Case sehingga laporan yang dihasilkan juga hanya tercatat sebagai satu Test Case.</description>
+   <name>Run Test Case Cucumber v1</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3327ab5c-970f-45dd-97ad-7937a2f799b4</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC007 - Submit Form Pengajuan Masuk Cuti Bersama Menghapus Evidence</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f6d13c29-20c2-4c0d-9950-df74e80895a5</testCaseGuid>
+</TestCaseEntity>

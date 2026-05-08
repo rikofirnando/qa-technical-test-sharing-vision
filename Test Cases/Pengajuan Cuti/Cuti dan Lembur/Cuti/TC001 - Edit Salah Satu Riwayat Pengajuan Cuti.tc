@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001 - Edit Salah Satu Riwayat Pengajuan Cuti</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b760cfeb-d63e-41ae-832f-05ab24aba3dc</testCaseGuid>
+</TestCaseEntity>

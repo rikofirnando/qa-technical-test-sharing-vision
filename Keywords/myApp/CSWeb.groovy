@@ -1114,33 +1114,73 @@ public class CSWeb extends WebUI {
 			return false
 		}
 	}
-	
+
 	static drawRandomSignature(String xpath) {
-		
-			WebDriver driver = DriverFactory.getWebDriver()
-		
-			WebElement canvas = driver.findElement(By.xpath(xpath))
-		
-			Actions actions = new Actions(driver)
-		
-			Random random = new Random()
-		
-			int startX = 30
-			int startY = 30
-		
-			actions.moveToElement(canvas, startX, startY)
-				   .clickAndHold()
-		
-			for (int i = 0; i < 15; i++) {
-		
-				int offsetX = random.nextInt(25)
-				int offsetY = random.nextInt(25) - 12
-		
-				actions.moveByOffset(offsetX, offsetY)
-		
-				Thread.sleep(50)
-			}
-		
-			actions.release().perform()
+
+		WebDriver driver = DriverFactory.getWebDriver()
+
+		WebElement canvas = driver.findElement(By.xpath(xpath))
+
+		Actions actions = new Actions(driver)
+
+		Random random = new Random()
+
+		int startX = 30
+		int startY = 30
+
+		actions.moveToElement(canvas, startX, startY)
+				.clickAndHold()
+
+		for (int i = 0; i < 15; i++) {
+
+			int offsetX = random.nextInt(25)
+			int offsetY = random.nextInt(25) - 12
+
+			actions.moveByOffset(offsetX, offsetY)
+
+			Thread.sleep(50)
 		}
+
+		actions.release().perform()
+	}
+
+	// ======================================================
+	// WAIT & VERIFY - TEXT PRESENT (FIXED)
+	// Menunggu teks muncul via dinamis XPath, lalu memverifikasi
+	// ======================================================
+	static boolean waitVerifyForTextPresent(String expectedText, int timeout) {
+
+		// 1. Membuat Dynamic XPath untuk mencari elemen apapun yang mengandung teks tersebut
+		String dynamicXPath = "//*[contains(text(), '${expectedText}')]"
+
+		// 2. Tunggu sampai elemen teks tersebut muncul (menggunakan waitForElementPresent)
+		WebUI.waitForElementPresent(cari(dynamicXPath), timeout, FailureHandling.OPTIONAL)
+
+		// 3. Setelah ditunggu, pastikan dengan verifikasi bawaan Katalon
+		boolean isVerified = WebUI.verifyTextPresent(expectedText, false, FailureHandling.OPTIONAL)
+
+		if (isVerified) {
+			KeywordUtil.markPassed("Wait & Verify Sukses: Teks '${expectedText}' berhasil ditemukan.")
+			return true
+		} else {
+			KeywordUtil.markFailed("Wait & Verify Gagal: Teks '${expectedText}' tidak muncul di halaman setelah ditunggu ${timeout} detik.")
+			return false
+		}
+	}
+
+	// ======================================================
+	// ACTION - SELECT OPTION
+	// Support XPath & CSS
+	// ======================================================
+	static selectOption(
+			String locator,
+			String label
+	) {
+
+		WebUI.selectOptionByLabel(
+				cari(locator),
+				label,
+				false
+				)
+	}
 }

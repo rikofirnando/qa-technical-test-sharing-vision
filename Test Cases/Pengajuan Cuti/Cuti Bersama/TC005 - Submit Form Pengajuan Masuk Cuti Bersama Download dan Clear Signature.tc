@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC005 - Submit Form Pengajuan Masuk Cuti Bersama Download dan Clear Signature</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2b5b2072-7c5d-4d51-a4ea-41137cf8f1ce</testCaseGuid>
+</TestCaseEntity>

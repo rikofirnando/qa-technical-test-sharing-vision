@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002 - Edit Salah Satu Riwayat Pengajuan Cuti Kosongkan Keterangan Cuti, Jenis Cuti, Nama PIC, dan Signature</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7890b106-55d0-4581-ac0f-cdc459404486</testCaseGuid>
+</TestCaseEntity>

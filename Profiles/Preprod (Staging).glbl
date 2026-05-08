@@ -27,6 +27,20 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'TestAccountKaryawan2'</initValue>
+      <name>wrongUsername</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>wrongPassword</name>
+      <protected>true</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'Riko Firnando'</initValue>
       <name>fullName</name>
       <protected>false</protected>
@@ -85,6 +99,13 @@
       <description></description>
       <initValue>'06012026'</initValue>
       <name>dateJoined</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/home/rikofirnando/Katalon Studio/QA Technical Test PT Sharing Vision - Riko Firnando/Pictures/sample.jpeg'</initValue>
+      <name>evidence</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>

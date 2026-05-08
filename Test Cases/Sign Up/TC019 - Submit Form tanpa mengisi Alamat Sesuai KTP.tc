@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC019 - Submit Form tanpa mengisi Alamat Sesuai KTP</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6b47e9ad-04c0-4605-b6f0-934620b993b6</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC004 - Submit Form Pengajuan Masuk Cuti Bersama tanpa mengisi Keterangan Cuti</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>66ea5fab-53f3-4d36-96f4-9dae3c96199d</testCaseGuid>
+</TestCaseEntity>
