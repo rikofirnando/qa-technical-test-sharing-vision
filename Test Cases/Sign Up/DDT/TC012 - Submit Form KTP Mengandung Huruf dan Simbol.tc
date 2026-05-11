@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC012 - Submit Form KTP Mengandung Huruf dan Simbol</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dc0d3201-dacc-4c52-8587-efb2fb5dc34f</testCaseGuid>
+</TestCaseEntity>

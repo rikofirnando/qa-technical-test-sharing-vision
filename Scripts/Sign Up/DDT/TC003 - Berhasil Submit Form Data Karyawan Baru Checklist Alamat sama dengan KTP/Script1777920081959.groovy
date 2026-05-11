@@ -11,18 +11,6 @@ CSWeb.waitForElementPresent("[class='card shadow-lg']", 5)
 	
 CSWeb.click("//button[text()='Sign Up']")
 
-String ktpPath = '/home/rikofirnando/Katalon Studio/QA Technical Test PT Sharing Vision - Riko Firnando/Pictures/sample.jpeg'
-String selfiePath = '/home/rikofirnando/Katalon Studio/QA Technical Test PT Sharing Vision - Riko Firnando/Pictures/sample.jpeg'
-def fullName = ""
-def placeOfBirth = GlobalVariable.placeOfBirth
-def dateOfBirth = GlobalVariable.dateOfBirth
-def noKTP = GlobalVariable.noKTP
-def phoneNumber = GlobalVariable.phoneNumber
-def email = GlobalVariable.email
-def address = GlobalVariable.address
-def domicileAddress = GlobalVariable.domicileAddress
-def dateJoined = GlobalVariable.dateJoined
-
 CSWeb.setText("[name='nama']", fullName)
 
 CSWeb.setText("[name='tempat_lahir']", placeOfBirth)
@@ -39,13 +27,13 @@ CSWeb.setText("[name='tanggal_join']", dateJoined)
 
 CSWeb.setText("[name='alamat']", address)
 
-CSWeb.setText("[name='domisili']", domicileAddress)
+CSWeb.click("[type='checkbox']")
 
 CSWeb.uploadFile("[name='img_ktp']", ktpPath)
 
 CSWeb.uploadFile("[name='img_selfie']", selfiePath)
 
-CSWeb.verifyFieldEmpty("[name='nama']")
+CSWeb.verifyFieldNotEmpty("[name='nama']")
 
 CSWeb.verifyFieldNotEmpty("[name='tempat_lahir']")
 
@@ -57,11 +45,19 @@ CSWeb.verifyFieldNotEmpty("[name='nomor_hp']")
 
 CSWeb.verifyFieldNotEmpty("[name='email']")
 
+CSWeb.checkFieldLength("[name='nomor_ktp']", 16)
+
+CSWeb.verifyNumericOnly("[name='nomor_ktp']")
+
+CSWeb.verifyNumericOnly("[name='nomor_hp']")
+
+CSWeb.verifyEmailFormat("[name='email']", 'rikofirnando73@yahoo.com')
+
 CSWeb.takeScreenshot()
 
 CSWeb.click("[type='submit']")
 
-CSWeb.verifyTextPresent("Nama Lengkap tidak boleh kosong!", false)
+CSWeb.verifyTextPresent("Data karyawan baru berhasil dibuat", false)
 
 CSWeb.takeScreenshot()
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC015 - Submit Form tanpa Mengisi Nomor HP</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9374a3df-efd2-494f-8484-b596b085990c</testCaseGuid>
+</TestCaseEntity>

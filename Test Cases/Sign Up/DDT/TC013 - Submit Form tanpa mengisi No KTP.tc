@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC013 - Submit Form tanpa mengisi No KTP</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>efd00f42-7336-4f27-959f-36fb4781f5d9</testCaseGuid>
+</TestCaseEntity>

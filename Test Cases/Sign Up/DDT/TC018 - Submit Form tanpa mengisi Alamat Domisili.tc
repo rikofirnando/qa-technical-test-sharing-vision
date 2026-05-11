@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC018 - Submit Form tanpa mengisi Alamat Domisili</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4e33bcaf-90dc-4c5a-bc4e-ab4f086f1f13</testCaseGuid>
+</TestCaseEntity>

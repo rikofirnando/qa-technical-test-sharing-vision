@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC020 - Submit Form Upload Selain Gambar</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bac48d40-18e9-42c1-b469-8c26341814eb</testCaseGuid>
+</TestCaseEntity>

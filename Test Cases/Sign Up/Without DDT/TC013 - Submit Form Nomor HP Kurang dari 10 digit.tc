@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC013 - Submit Form tanpa mengisi No KTP</name>
+   <name>TC013 - Submit Form Nomor HP Kurang dari 10 digit</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>e5bea8eb-bee7-4706-a98c-39776eb4b03d</testCaseGuid>
+   <testCaseGuid>78b097c4-91cc-4901-a17b-4254466fd033</testCaseGuid>
 </TestCaseEntity>

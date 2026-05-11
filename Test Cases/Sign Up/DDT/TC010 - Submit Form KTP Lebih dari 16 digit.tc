@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC010 - Submit Form KTP Lebih dari 16 digit</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cda820f2-87af-48ee-9a9a-a2819fae049f</testCaseGuid>
+</TestCaseEntity>

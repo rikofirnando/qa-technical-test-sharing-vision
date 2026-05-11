@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC016 - Submit Form tanpa mengisi Tanggal Lahir</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9f2c5391-bbf2-4703-9e14-c9d05ac34c08</testCaseGuid>
+</TestCaseEntity>

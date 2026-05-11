@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC014 - Submit Form Nomor HP Kurang dari 10 digit</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5db972cc-8748-4f18-a0e4-cac6eab3bf01</testCaseGuid>
+</TestCaseEntity>

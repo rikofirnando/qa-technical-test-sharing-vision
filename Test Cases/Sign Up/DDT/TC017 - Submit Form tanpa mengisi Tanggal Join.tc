@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC011 - Submit Form Nomor HP Kurang dari 10 digit</name>
+   <name>TC017 - Submit Form tanpa mengisi Tanggal Join</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>9374a3df-efd2-494f-8484-b596b085990c</testCaseGuid>
+   <testCaseGuid>75a3ae2c-710d-4c17-b842-8d3b49d426b2</testCaseGuid>
 </TestCaseEntity>

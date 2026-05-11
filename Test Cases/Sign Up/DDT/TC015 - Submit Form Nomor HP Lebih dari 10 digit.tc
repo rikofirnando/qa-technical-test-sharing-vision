@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC015 - Submit Form Nomor HP Lebih dari 10 digit</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>91409713-a971-413c-a8dc-125664efcceb</testCaseGuid>
+</TestCaseEntity>
