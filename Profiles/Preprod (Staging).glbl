@@ -109,4 +109,18 @@
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/home/rikofirnando/Katalon Studio/QA Technical Test PT Sharing Vision - Riko Firnando/Pictures/sample.jpeg'</initValue>
+      <name>selfiePath</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/home/rikofirnando/Katalon Studio/QA Technical Test PT Sharing Vision - Riko Firnando/Pictures/sample.jpeg'</initValue>
+      <name>ktpPath</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
